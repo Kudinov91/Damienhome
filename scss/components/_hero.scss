@@ -1,0 +1,134 @@
+.hero {
+  width: 100%;
+  padding: 40px 16px;
+  border-bottom: 1px solid var(--dark-12);
+  @media (min-width: 1360px) {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (min-width: 1920px) {
+    width: 1600px;
+  }
+
+  &__text--left {
+    @media (min-width: 1360px) {
+      width: 436px;
+    }
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.hero__name {
+  color: #e4e4e6;
+  margin-bottom: 20px;
+  @media (min-width: 1360px) {
+    font-size: 60px;
+  }
+  @media (min-width: 1920px) {
+    font-size: 80px;
+    width: 582px;
+  }
+}
+.hero__text--right {
+  color: #fff;
+  @media (min-width: 1360px) {
+    width: 400px;
+  }
+  @media (min-width: 1920px) {
+    width: 484px;
+  }
+}
+.hero__text--icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-bottom: 5px;
+  @media (min-width: 1360px) {
+    font-size: 48px;
+  }
+  @media (min-width: 1920px) {
+    font-size: 58px;
+  }
+}
+.hero__text--rightBot {
+  @media (min-width: 1360px) {
+    font-size: 48px;
+  }
+  @media (min-width: 1920px) {
+    font-size: 58px;
+  }
+}
+.hero__btn {
+  display: none;
+  @media (min-width: 1360px) {
+    display: block;
+    width: 262px;
+  }
+  @media (min-width: 1920px) {
+    width: 364px;
+  }
+}
+.hero__svg {
+  display: none;
+  @media (min-width: 1360px) {
+    display: block;
+    width: 262px;
+  }
+  @media (min-width: 1920px) {
+    width: 364px;
+  }
+}
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-12);
+  padding: 16px;
+  @media (min-width: 1920px) {
+    width: 1880px;
+  }
+
+  .info__item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .info__text {
+    color: #d6d0fb;
+    font-size: 10px;
+    @media (min-width: 1360px) {
+      font-size: 16px;
+    }
+
+    @media (min-width: 1920px) {
+      font-size: 18px;
+    }
+  }
+
+  .info__star {
+    width: 26px;
+  }
+}
+
+.images__container {
+  width: 100%;
+  padding: 14px;
+}
+
+.images__container > img {
+  width: 100%;
+  margin-bottom: 80px;
+  @media (min-width: 1360px) {
+    margin-bottom: 150px;
+    width: 1440px;
+  }
+  @media (min-width: 1920px) {
+    width: 1920px;
+  }
+}
